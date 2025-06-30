@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Website Landing Page</title>
+
+    <link
+      rel="stylesheet"
+      href="./assets/css/styles.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="circle"></div>
+      <header>
+        <a href="#">
+          <img
+            src="./assets/images/logo.png"
+            alt="Logo"
+            class="logo"
+          />
+        </a>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+
+      <section class="content">
+        <div class="textBox">
+          <h1>
+            It's not just Coffee <br />
+            It's <span>Starbucks</span>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, fugit pariatur libero illum iure blanditiis dolore quas aspernatur voluptatem laudantium? Sed sint blanditiis modi omnis fuga error dolorum voluptatibus
+            repudiandae quidem. Ipsum repellat iure fugit, illum aliquam quae et fuga?
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div class="imgBox">
+          <img
+            src="./assets/images/img1.png"
+            alt="Starbuck's Product"
+            class="starbucks-image"
+          />
+        </div>
+      </section>
+
+      <ul class="thumb">
+        <li>
+          <img
+            src="./assets/images/thumb1.png"
+            alt="Product Thumbnail"
+            onclick="imageSwitcher('./assets/images/img1.png');changeCircleColor('#017143');"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/images/thumb2.png"
+            alt="Product Thumbnail"
+            onclick="imageSwitcher('./assets/images/img2.png');changeCircleColor('#eb7495')"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/images/thumb3.png"
+            alt="Product Thumbnail"
+            onclick="imageSwitcher('./assets/images/img3.png');changeCircleColor('#d752b1')"
+          />
+        </li>
+      </ul>
+
+      <ul class="social-media">
+        <li>
+          <a href="#"
+            ><img
+              src="./assets/images/facebook.png"
+              alt="Social Media"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="./assets/images/instagram.png"
+              alt="Social Media"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="./assets/images/twitter.png"
+              alt="Social Media"
+          /></a>
+        </li>
+      </ul>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
